@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>STRATA — Interior Architecture Studio</title>
+<meta name="description" content="STRATA is an interior architecture studio designing residential spaces shaped around material, light and the way people actually live.">
+<meta name="theme-color" content="#100E0B">
+
+<!-- Open Graph -->
+<meta property="og:title" content="STRATA — Interior Architecture Studio">
+<meta property="og:description" content="Spaces, designed to be felt.">
+<meta property="og:type" content="website">
+
+<link rel="stylesheet" href="style.css">
+<script>document.documentElement.classList.remove('no-js');</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ============================== NAV ============================== -->
+<header class="site-nav" id="siteNav">
+  <a href="#top" class="brand" aria-label="STRATA — home">STRATA <em>Interiors</em></a>
+  <nav class="nav-links" aria-label="Primary">
+    <a href="#work">Work</a>
+    <a href="#studio">Studio</a>
+    <a href="#process">Process</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+    <span></span>
+  </button>
+</header>
+
+<!-- mobile menu -->
+<nav id="mobileMenu" class="mobile-menu" aria-label="Mobile" hidden>
+  <a href="#work">Work</a>
+  <a href="#studio">Studio</a>
+  <a href="#process">Process</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<main id="main">
+
+  <!-- ============================== 01 HERO ============================== -->
+  <section class="hero" id="top">
+    <div class="hero-media" aria-hidden="true">
+      <img
+        src="https://images.unsplash.com/photo-1758448500596-ce0e0239f1be?q=80&w=2400&auto=format&fit=crop"
+        alt=""
+        fetchpriority="high">
+    </div>
+    <div class="hero-inner wrap">
+      <p class="eyebrow hero-eyebrow" data-anim="fade-up">Interior Architecture Studio</p>
+      <h1 class="display-xl hero-title on-dark" data-anim="fade-up">Spaces, designed<br>to be felt.</h1>
+      <div class="hero-foot">
+        <p class="lede on-dark" data-anim="fade-up">Interior architecture and design shaped around the way you live — from spatial planning to the last detail of hardware and light.</p>
+        <div class="hero-actions" data-anim="fade-up">
+          <a href="#work" class="btn btn-solid">Explore Our Work
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a href="#process" class="btn btn-ghost on-dark">Our Approach</a>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll on-dark wrap" style="position:absolute; bottom:1.6rem; right:var(--gutter);" data-anim="fade-up" aria-hidden="true">
+      <span class="scroll-line"></span>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ============================== 02 CRAFTSMANSHIP ============================== -->
+  <section class="craft" id="process" aria-label="Our craft, shown through a scroll-controlled reveal">
+    <div class="craft-scroller" id="craftScroller">
+      <div class="craft-stage" id="craftStage">
+
+        <div class="craft-copy-top wrap on-dark">
+          <div class="craft-heading">
+            <p class="eyebrow" data-anim="fade-up">02 — We Craft</p>
+            <h2 class="display-l" data-anim="fade-up">Crafted from the inside out.</h2>
+          </div>
+          <p class="craft-counter" id="craftCounter" data-anim="fade-up">01 / 04 — Assembled</p>
+        </div>
+
+        <div class="craft-video-frame">
+          <video
+            id="craftVideo"
+            src="assets/craft-reveal.mp4"
+            poster="assets/craft-poster.jpg"
+            muted
+            playsinline
+            webkit-playsinline="true"
+            preload="auto"
+            aria-hidden="true"></video>
+          <img class="craft-fallback" hidden src="assets/craft-poster.jpg" alt="A finished living room render dissolves into its layered structure — ceiling, walls and furnishings separating to reveal the craft beneath, then reassembling into the completed room.">
+        </div>
+
+        <div class="craft-copy-bottom wrap on-dark">
+          <p class="lede on-dark" style="max-width:30ch;" data-anim="fade-up">Every material, proportion and detail is considered before the finished space comes together.</p>
+          <div>
+            <div class="craft-progress" aria-hidden="true"><div class="craft-progress-fill" id="craftFill"></div></div>
+            <div class="craft-stages" id="craftStages" aria-hidden="true">
+              <span data-stage="0">Finished space</span>
+              <span data-stage="1">Structure lifts</span>
+              <span data-stage="2">Craft exposed</span>
+              <span data-stage="3">Reassembled</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================== 03 MATERIALS ============================== -->
+  <section class="section materials" id="materials">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow" data-anim="fade-up">03 — We Detail</p>
+          <h2 class="display-l" data-anim="fade-up">Every detail matters.</h2>
+        </div>
+        <p class="lede" data-anim="fade-up">Texture, proportion, light and material come together to create spaces that feel considered from every angle.</p>
+      </div>
+
+      <div class="material-rows">
+        <div class="material-row" data-reveal>
+          <div class="material-media">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1554296048-b59c9fca4857?q=80&w=1600&auto=format&fit=crop" alt="Close-up of veined white and grey marble surface with polished finish.">
+            <span class="material-tag"><span class="num">01</span> Marble &amp; Stone</span>
+          </div>
+        </div>
+        <div class="material-row" data-reveal>
+          <div class="material-media">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?q=80&w=1600&auto=format&fit=crop" alt="Warm walnut wood grain with visible natural texture.">
+            <span class="material-tag"><span class="num">02</span> Wood Grain</span>
+          </div>
+        </div>
+        <div class="material-row" data-reveal>
+          <div class="material-media">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1618220179428-22790b461013?q=80&w=1600&auto=format&fit=crop" alt="Brushed brass cabinetry hardware and hand pulls.">
+            <span class="material-tag"><span class="num">03</span> Brass Hardware</span>
+          </div>
+        </div>
+        <div class="material-row" data-reveal>
+          <div class="material-media">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1540638349517-3abd5afc5847?q=80&w=1600&auto=format&fit=crop" alt="Woven natural fabric texture in muted tone, used for upholstery.">
+            <span class="material-tag"><span class="num">04</span> Fabric &amp; Weave</span>
+          </div>
+        </div>
+        <div class="material-row" data-reveal>
+          <div class="material-media">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1524634126442-357e0eac3c14?q=80&w=1600&auto=format&fit=crop" alt="Sculptural pendant light fixture against a soft dark background.">
+            <span class="material-tag"><span class="num">05</span> Lighting</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================== 04 TRANSFORMATION ============================== -->
+  <section class="section transform-section" id="transform">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow" data-anim="fade-up">04 — We Transform</p>
+          <h2 class="display-l" data-anim="fade-up">From possibility to place.</h2>
+        </div>
+        <p class="lede" data-anim="fade-up">We transform existing spaces into environments shaped around people, purpose and atmosphere.</p>
+      </div>
+
+      <div
+        class="compare"
+        id="compareSlider"
+        role="slider"
+        tabindex="0"
+        aria-label="Before and after comparison. Use arrow keys to adjust."
+        aria-valuemin="0" aria-valuemax="100" aria-valuenow="50">
+        <img class="compare-before" src="https://images.unsplash.com/photo-1560184897-ae75f418493e?q=80&w=1800&auto=format&fit=crop" alt="The original living space before renovation — dated, empty, unfinished." loading="lazy">
+        <img class="compare-after" id="compareAfter" src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=1800&auto=format&fit=crop" alt="The completed interior after design — warm, furnished, considered." loading="lazy">
+        <span class="compare-label before">Before</span>
+        <span class="compare-label after">After</span>
+        <div class="compare-handle" id="compareHandle">
+          <div class="compare-grip">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 8L4 12L8 16M16 8L20 12L16 16"/></svg>
+          </div>
+        </div>
+      </div>
+      <div class="compare-caption">
+        <span class="mono-label">Drag to compare — or use ← / →</span>
+        <span class="mono-label">Andheri Residence, 2025</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================== 05 SELECTED WORK ============================== -->
+  <section class="section work" id="work">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow on-dark" data-anim="fade-up">05 — We Showcase</p>
+          <h2 class="display-l on-dark" data-anim="fade-up">Selected work.</h2>
+        </div>
+        <p class="lede on-dark" data-anim="fade-up">A small selection of completed residences, each shaped by its own site, light and clients.</p>
+      </div>
+
+      <div class="project-list">
+        <article class="project" data-reveal>
+          <a href="#" class="project-link">
+            <div class="project-media">
+              <img loading="lazy" src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=2000&auto=format&fit=crop" alt="Living room of the Vermeer Residence — a warm minimalist interior with layered wood and stone.">
+            </div>
+            <div class="project-info">
+              <h3 class="project-name">Vermeer Residence
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M7 17L17 7M17 7H8M17 7V16"/></svg>
+              </h3>
+              <div class="project-meta">
+                <span><span class="mm-label">Location</span>Surat, IN</span>
+                <span><span class="mm-label">Type</span>Full Residence</span>
+                <span><span class="mm-label">Year</span>2025</span>
+              </div>
+            </div>
+          </a>
+        </article>
+
+        <article class="project" data-reveal>
+          <a href="#" class="project-link">
+            <div class="project-media">
+              <img loading="lazy" src="https://images.unsplash.com/photo-1616137466211-f939a420be84?q=80&w=2000&auto=format&fit=crop" alt="The Marbella Penthouse — an open plan living and dining space with marble flooring.">
+            </div>
+            <div class="project-info">
+              <h3 class="project-name">Marbella Penthouse
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M7 17L17 7M17 7H8M17 7V16"/></svg>
+              </h3>
+              <div class="project-meta">
+                <span><span class="mm-label">Location</span>Mumbai, IN</span>
+                <span><span class="mm-label">Type</span>Penthouse</span>
+                <span><span class="mm-label">Year</span>2024</span>
+              </div>
+            </div>
+          </a>
+        </article>
+
+        <article class="project" data-reveal>
+          <a href="#" class="project-link">
+            <div class="project-media">
+              <img loading="lazy" src="https://images.unsplash.com/photo-1618219944342-824e40a13285?q=80&w=2000&auto=format&fit=crop" alt="The Ora Apartment — a serene bedroom interior with soft natural light.">
+            </div>
+            <div class="project-info">
+              <h3 class="project-name">Ora Apartment
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M7 17L17 7M17 7H8M17 7V16"/></svg>
+              </h3>
+              <div class="project-meta">
+                <span><span class="mm-label">Location</span>Ahmedabad, IN</span>
+                <span><span class="mm-label">Type</span>2BHK Interior</span>
+                <span><span class="mm-label">Year</span>2024</span>
+              </div>
+            </div>
+          </a>
+        </article>
+
+        <article class="project" data-reveal>
+          <a href="#" class="project-link">
+            <div class="project-media">
+              <img loading="lazy" src="https://images.unsplash.com/photo-1615874959474-d609969a20ed?q=80&w=2000&auto=format&fit=crop" alt="The Linden Villa kitchen — custom cabinetry in warm walnut with brass accents.">
+            </div>
+            <div class="project-info">
+              <h3 class="project-name">Linden Villa
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M7 17L17 7M17 7H8M17 7V16"/></svg>
+              </h3>
+              <div class="project-meta">
+                <span><span class="mm-label">Location</span>Vadodara, IN</span>
+                <span><span class="mm-label">Type</span>Kitchen &amp; Dining</span>
+                <span><span class="mm-label">Year</span>2023</span>
+              </div>
+            </div>
+          </a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================== 06 STUDIO ============================== -->
+  <section class="section studio" id="studio">
+    <div class="wrap">
+      <div class="studio-grid">
+        <div class="studio-sticky">
+          <p class="eyebrow" data-anim="fade-up">06 — The Studio</p>
+          <h2 class="display-l" data-anim="fade-up">Designing with intention.</h2>
+          <p class="lede" style="margin-top:1.2rem;" data-anim="fade-up">Six practices guide every project we take on, from the first sketch to the final walkthrough.</p>
+        </div>
+
+        <div class="principles">
+          <div class="principle" data-reveal>
+            <span class="num">01</span>
+            <div><h3>Spatial Planning</h3><p>We begin with how a space is used, not how it looks — movement, proportion and light dictate the layout before a single finish is chosen.</p></div>
+          </div>
+          <div class="principle" data-reveal>
+            <span class="num">02</span>
+            <div><h3>Material Selection</h3><p>Stone, wood and metal are chosen for how they age, not just how they photograph — durability is part of the design brief.</p></div>
+          </div>
+          <div class="principle" data-reveal>
+            <span class="num">03</span>
+            <div><h3>Lighting</h3><p>Layered, considered lighting shapes mood across the day — ambient, task and accent light are planned as a single system.</p></div>
+          </div>
+          <div class="principle" data-reveal>
+            <span class="num">04</span>
+            <div><h3>Functionality</h3><p>Beautiful spaces that don't work for daily life are a failure of design — every detail earns its place.</p></div>
+          </div>
+          <div class="principle" data-reveal>
+            <span class="num">05</span>
+            <div><h3>Craftsmanship</h3><p>We work closely with fabricators and artisans through execution, not just design — the build is where the design is proven.</p></div>
+          </div>
+          <div class="principle" data-reveal>
+            <span class="num">06</span>
+            <div><h3>Personalization</h3><p>No two clients live the same way — each project is shaped around the people who will actually occupy it.</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================== 07 CONTACT ============================== -->
+  <section class="section contact" id="contact">
+    <div class="wrap contact-inner">
+      <p class="eyebrow" data-anim="fade-up">07 — Start a Project</p>
+      <h2 class="display-xl contact-title" data-anim="fade-up">Let's create a space worth coming home to.</h2>
+
+      <div class="hero-actions" style="margin-bottom:3rem;" data-anim="fade-up">
+        <a href="https://wa.me/910000000000?text=Hi%20STRATA%2C%20I%27d%20like%20to%20start%20a%20project." class="btn btn-solid" target="_blank" rel="noopener">Start a Project
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <a href="mailto:studio@strata-interiors.com" class="btn btn-ghost on-dark">Email the Studio</a>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-block">
+          <span class="mono-label">Email</span>
+          <a href="mailto:studio@strata-interiors.com">studio@strata-interiors.com</a>
+        </div>
+        <div class="contact-block">
+          <span class="mono-label">Phone</span>
+          <a href="tel:+910000000000">+91 00000 00000</a>
+        </div>
+        <div class="contact-block">
+          <span class="mono-label">Studio</span>
+          <p>Surat, Gujarat<br>India</p>
+        </div>
+        <div class="contact-block">
+          <span class="mono-label">Follow</span>
+          <div class="social-row">
+            <a href="#" target="_blank" rel="noopener">Instagram</a>
+            <a href="#" target="_blank" rel="noopener">Pinterest</a>
+            <a href="#" target="_blank" rel="noopener">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <span>© <span id="year"></span> STRATA Interiors. All rights reserved.</span>
+  <a href="#top" class="back-to-top">Back to top
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+  </a>
+</footer>
+
+<script src="assets/vendor/gsap.min.js"></script>
+<script src="assets/vendor/ScrollTrigger.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
